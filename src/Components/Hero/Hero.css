@@ -1,0 +1,21 @@
+/* Hero.css */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .hero-text {
+    max-width: 400px; /* Adjust based on your design */
+    margin-right: 20px;
+  }
+  
+  .hero-image {
+    max-width: 350px; /* Adjust based on your design */
+    border-radius: 100%; /* Optional: Adds rounded corners to the image */
+    transform: scalex(-1);
+    margin-left: 10px;
+  }
+  

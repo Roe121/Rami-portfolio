@@ -5,19 +5,18 @@ import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import AboutMe from './Components/AboutMe';
 import Hero from './Components/Hero';
-import NavBarData from './Data'
+import { NavBarData } from './Data';
 
 function App() {
   return (
     <Router>
-      <nav className='flex justify-between px-40 '>
-        <div className="text-3xl text-gray-700 font-bold mb-5">LOGO</div>
-        <ul className="flex">
+      <nav className='bg-white shadow'>
+        <ul className="container flex items-center justify-center p-6 mx-auto nav">
           
         {NavBarData.map((item)=>{
           return(
             <li>
-              
+              <Link  to={item.link}>{item.name}</Link>
             </li>
           )
         })}

@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: space-around;
     padding: 2rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
   }
   
   .hero-text {

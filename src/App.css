@@ -44,6 +44,18 @@
     opacity: 1;
 }
 
+body {
+    height: 100%;
+
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    background-image: url('bg.jpg');
+    background-repeat: repeat;
+    /* Répète l'image horizontalement et verticalement */
+    background-size: 100%;
+    /* Ajuste la taille de l'image pour couvrir complètement l'élément parent */
+}
+
 
 
 

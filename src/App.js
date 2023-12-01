@@ -9,7 +9,7 @@ import { NavBarData } from "./Data";
 function App() {
   return (
     <Router>
-      <nav className="bg-white shadow flex items-center justify-center px-32 mx-auto">
+      <nav className="bg-white flex items-center justify-center px-32 mx-auto">
         <div className="logo">
           <span>LOGO</span>
         </div>

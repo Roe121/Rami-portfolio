@@ -9,12 +9,15 @@ import { NavBarData } from "./Data";
 function App() {
   return (
     <Router>
-      <nav className="bg-white flex items-center justify-center px-32 mx-auto">
-        <div className="logo">
-          <span>LOGO</span>
-        </div>
+      <nav className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        <Link
+          to="/"
+          className="flex items-center gap-2"
+          >
+          <p>LOGO</p>
+        </Link>
 
-        <ul className="container flex items-center justify-center p-6 mx-auto nav">
+        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {NavBarData.map((item) => {
             return (
               <li>
@@ -26,7 +29,6 @@ function App() {
           })}
         </ul>
 
-        <button>Telecharger le CV</button>
       </nav>
 
 

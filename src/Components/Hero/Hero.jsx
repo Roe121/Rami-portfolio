@@ -1,22 +1,26 @@
-import React from 'react'
-import './Hero.css'
-import heroImg from './herol.png'; // Replace with your image filename
-
+import React from "react";
+import "./Hero.css";
+import heroImg from "./last.png"; // Replace with your image filename
 
 const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero-text">
-        <h1 className="text-3xl font-bold mb-2">Your Name</h1>
-        <p className="text-gray-600">A brief description about yourself goes here.</p>
+        <h1
+          className="text-[50px] font-mova font-extrabold"
+        >
+          Salut ! je suis
+        </h1>
+        <span className="text-[50px] font-mova font-extrabold uppercase text-gray-600">
+            Rami
+          </span>
+        <p className="text-2xl">
+          Etudiant et passioné par le developement
+        </p>
       </div>
-      <img
-        className="hero-image"
-        src={heroImg}
-        alt="Your Name"
-      />
+      <img className="hero-image" src={heroImg} alt="Your Name" />
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

@@ -1,6 +1,11 @@
-.nav {
-    transition: all .35s ease;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@font-face {
+    font-family: 'Mova';
+    src: url('./fonts/mova.otf');
 }
+
 
 .nav a {
     padding: .5em .5em;
@@ -10,50 +15,36 @@
     font-size: 18px;
 }
 
-.nav a::before,
-.nav a::after {
-    content: '';
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    transition: all .35s ease;
-    opacity: 0;
-}
-
-.nav a::before {
-    content: '';
-    right: 0;
-    top: 0;
-    border-top: 3px solid #2c0faf;
-    border-right: 3px solid #2c0faf;
-    transform: translate(-100%, 50%);
-}
-
-.nav a:after {
-    content: '';
-    left: 0;
-    bottom: 0;
-    border-bottom: 3px solid #2c0faf;
-    border-left: 3px solid #2c0faf;
-    transform: translate(100%, -50%)
-}
-
-.nav a:hover:before,
-.nav a:hover:after {
-    transform: translate(0, 0);
-    opacity: 1;
-}
 
 body {
     height: 100%;
 
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    background-image: url('bg.jpg');
+    background-image: url('bg1.jpg');
     background-repeat: repeat;
     /* Répète l'image horizontalement et verticalement */
     background-size: 100%;
     /* Ajuste la taille de l'image pour couvrir complètement l'élément parent */
+}
+
+.font-mova{
+    font-family: 'Mova';
+    letter-spacing: 2px
+}
+
+.nav-links::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #292929;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links:hover::after {
+    width: 70%;
 }
 
 

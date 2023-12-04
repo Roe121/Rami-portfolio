@@ -11,8 +11,6 @@ function App() {
     <Router>
       
       <NavBar/>
-
-
       <Hero />
       <Routes>
         <Route path="/hero" component={Hero} />

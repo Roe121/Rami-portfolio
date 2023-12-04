@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   const [active, setActive] = useState("Accueil");
   return (
-    <nav className="w-full flex justify-between items-center mx-auto bg-white max-w-full px-20 py-1 shadow ">
+    <nav className="w-full flex justify-between items-center mx-auto bg-white max-w-full px-20 py-1 shadow  ">
       <Link to="/" className="flex items-center gap-2">
         <img
           src={logo}

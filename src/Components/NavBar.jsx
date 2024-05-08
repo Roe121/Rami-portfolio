@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React, { useState,useRef  } from "react";
 import { NavBarData } from "../Data";
 import logo from "../logop.png";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [active, setActive] = useState("Accueil");
+
   return (
-    <nav className="w-full flex justify-between items-center mx-auto bg-white max-w-full px-20 py-1 shadow  ">
+    <nav className="w-full flex justify-between items-center mx-auto bg-white max-w-full px-20 py-1 shadow fixed z-10	 ">
       <Link to="/" className="flex items-center gap-2">
         <img
           src={logo}
@@ -24,7 +25,9 @@ const NavBar = () => {
                 active === item.name ? 'text-gray-500' : ''
               } hover:text-gray-500 text-xl font-mova nav-links `}
                 to={item.link}
-                onClick={() => setActive(item.name)}
+                onClick={() => {
+                  setActive(item.name);
+                }}
               >
                 {item.name}
               </Link>

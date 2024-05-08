@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useRef } from 'react';
 import "./Hero.css";
 import heroImg from "./last.png"; // Replace with your image filename
 
 const Hero = () => {
   return (
-    <section>
-    <div className="hero-container">
+    <section className="max-w-6xl mx-auto px-5 py-28">
+    <div className="hero-container ">
       <div class="firefly"></div>
       <div class="firefly"></div>
       <div class="firefly"></div>
@@ -23,14 +23,14 @@ const Hero = () => {
       <div class="firefly"></div>
       <div className="hero-text">
         <h1 className="text-[50px] font-mova font-extrabold">
-          Salut ! je suis
+          Hello ! I am
         </h1>
         <span className="text-[50px] font-mova font-extrabold uppercase text-gray-600">
           Rami
         </span>
-        <p className="text-2xl">Etudiant et passioné par le developement</p>
+        <p className="text-2xl">I'm a student and a passionate developer, eager to create innovative web solutions that make a </p>
       </div>
-      <img className="hero-image" src={heroImg} alt="Your Name" />
+      <img className="hero-image" src={heroImg} alt="Rami" />
     </div>
     </section>
   );

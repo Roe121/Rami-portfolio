@@ -12,6 +12,7 @@ function App() {
       
       <NavBar/>
       <Hero />
+      <AboutMe />
       <Routes>
         <Route path="/hero" component={Hero} />
         <Route path="/apropos" component={AboutMe} />

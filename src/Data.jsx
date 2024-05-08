@@ -1,18 +1,18 @@
 export const NavBarData=[
     {
-        name:"Accueil",
+        name:"Home",
         link:"/hero"
     },
     {
-        name:"À propos",
+        name:"About me",
         link:"/apropos"
     },
     {
-        name:"Projets",
+        name:"Projects",
         link:"/projets"
     },
     {
-        name:"Contactez Moi",
+        name:"Lets connect !",
         link:"/contact"
     },
 

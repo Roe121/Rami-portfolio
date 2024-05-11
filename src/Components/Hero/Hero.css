@@ -1,11 +1,12 @@
 /* Hero.css */
 
 .hero-container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 2rem;
-  width: 70%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4rem;
@@ -29,7 +30,7 @@
 
 
 .firefly {
-  position: fixed;
+  position: absolute;
   left: 50%;
   top: 50%;
   width: 0.4vw;
@@ -535,7 +536,7 @@
     transform: translateX(-11vw) translateY(-10vh) scale(0.38);
   }
   96.1538461538% {
-    transform: translateX(-27vw) translateY(46vh) scale(0.58);
+    transform: translateX(-27vw) translateY(30vh) scale(0.58);
   }
   100% {
     transform: translateX(27vw) translateY(-18vh) scale(0.62);

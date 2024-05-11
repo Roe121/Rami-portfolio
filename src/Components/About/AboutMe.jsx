@@ -1,13 +1,27 @@
 import React, { useRef } from "react";
-
+import "./About.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
+import {
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faJava,
+  faPhp,
+  faFigma,
+  faGit,
+  faJira,
+  faSymfony,
+  faNodeJs,
+} from "@fortawesome/free-brands-svg-icons";
 const AboutMe = () => {
   return (
     <div>
       <section className="text-gray-200 bg-gray-900">
-        <div className="max-w-6xl mx-auto px-5 py-24 ">
+        <div className="max-w-7xl mx-auto px-5 py-24 ">
           <div className="text-center mb-20">
             <h1 className="title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl font-mova">
-              What i do ?
+              What can i do ?
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
               The world of computer science is vast, and new technologies emerge
@@ -40,7 +54,7 @@ const AboutMe = () => {
                     </svg>
                   </div>
                   <div className="flex-grow ">
-                    <h2 className="text-xl title-font font-medium mb-3">
+                    <h2 className="text-xl title-font font-medium mb-3 font-mova">
                       Webdesign
                     </h2>
                     <p className="leading-relaxed text-sm text-justify">
@@ -72,7 +86,7 @@ const AboutMe = () => {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <h2 className="text-xl title-font font-medium mb-3">
+                    <h2 className="text-xl title-font font-medium mb-3 font-mova">
                       Front-End Development
                     </h2>
                     <p className="leading-relaxed text-sm text-justify">
@@ -104,7 +118,7 @@ const AboutMe = () => {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <h2 className="text-xl title-font font-medium mb-3">
+                    <h2 className="text-xl title-font font-medium mb-3 font-mova">
                       Back-end Development
                     </h2>
                     <p className="leading-relaxed text-sm text-justify">
@@ -114,6 +128,113 @@ const AboutMe = () => {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          <div className="text-center mb-10  mt-10">
+            <h1 className="title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl font-mova ">
+              What technologies?
+            </h1>
+            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+              The world of computer science is vast, and new technologies emerge
+              all the time. I am committed to staying ahead of the curve to meet
+              my clients' needs and assist fellow developers. Here's what I
+              specialize in:
+            </p>
+            <div className="flex mt-6 justify-center">
+              <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap justify-around">
+            <div className="w-1/4 p-4">
+              <h2 className="text-2xl title-font font-medium font-mova mb-10 text-center">
+                Programming Languages
+              </h2>
+
+              <p className="leading-relaxed text-sm text-justify">
+                <FontAwesomeIcon icon={faHtml5} size="lg" transform="grow-2 left-6"/> <FontAwesomeIcon icon={faCss3Alt} size="lg"  transform=" grow-2 left-6"/>
+                <span className="pl-1">HTML / CSS</span>
+              </p>
+              <div className="progress">
+                <div className="progress-value-html"></div>
+              </div>
+
+              <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faJs} size="lg" transform="grow-2 left-6" />JavaScript
+              </p>
+              <div className="progress">
+                <div className="progress-value-js"></div>
+              </div>
+
+              <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faJava} size="lg"  transform="grow-2 left-6" />Java
+              </p>
+              <div className="progress">
+                <div className="progress-value-java"></div>
+              </div>
+
+              <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faPhp} size="lg" transform=" grow-2 left-6"  /> PHP
+              </p>
+              <div className="progress">
+                <div className="progress-value-php"></div>
+              </div>
+
+            </div>
+            <div className="w-1/4 p-4">
+              <h2 className="text-2xl title-font font-medium font-mova mb-10 text-center">
+                Frameworks
+              </h2>
+              <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faReact} size="lg" transform="grow-2 left-4"  /> React.js
+              </p>
+              <div className="progress">
+                <div className="progress-value-react"></div>
+              </div>
+
+              <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faNodeJs} size="lg" transform="grow-2 left-4"/> Node.js
+              </p>
+              <div className="progress">
+                <div className="progress-value-express"></div>
+              </div>
+              <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faSymfony} size="lg" transform="grow-2 left-6" /> Symfony
+              </p>
+              <div className="progress">
+                <div className="progress-value-symfony"></div>
+              </div>
+            </div>
+            <div className="w-1/4 p-4">
+              <h2 className="text-2xl title-font font-medium font-mova mb-10 text-center">
+                Tools
+              </h2>
+              <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faFigma} size="lg" transform="grow-2 left-6"/> Figma
+              </p>
+              <div className="progress">
+                <div className="progress-value-figma"></div>
+              </div>
+              <p className="leading-relaxed text-sm text-justify mb-3 ">
+                <FontAwesomeIcon icon={faGit} size="lg" transform="grow-2 left-6" /> Git
+              </p>
+              <div className="progress">
+                <div className="progress-value-git"></div>
+              </div>
+              <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faJira} size="lg" transform="grow-2 left-6" /> Jira
+              </p>
+              <div className="progress">
+                <div className="progress-value-jira"></div>
               </div>
             </div>
           </div>

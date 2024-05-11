@@ -1,0 +1,193 @@
+.progress {
+    background: rgba(31 41 55);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .progress-value-html {
+    animation: load-html 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-js {
+    animation: load-js 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-java {
+    animation: load-java 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-php {
+    animation: load-php 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-react {
+    animation: load-react 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-express {
+    animation: load-express 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-symfony {
+    animation: load-symfony 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-figma {
+    animation: load-figma 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-git {
+    animation: load-git 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .progress-value-jira {
+    animation: load-jira 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 20px;
+    width: 0;
+  }
+  
+  @keyframes load-html {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  
+  @keyframes load-js {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  
+  @keyframes load-java {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  
+  @keyframes load-php {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  
+  @keyframes load-react {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  
+  @keyframes load-express {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  
+  @keyframes load-symfony {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  
+  @keyframes load-figma {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  
+  @keyframes load-git {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  
+  @keyframes load-jira {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  

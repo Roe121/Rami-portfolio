@@ -4,7 +4,7 @@ import heroImg from "./last.png"; // Replace with your image filename
 
 const Hero = () => {
   return (
-    <div className="  py-28 ">
+    <div className="py-40">
       <div className="hero-container overflow-hidden">
         <div class="firefly"></div>
         <div class="firefly"></div>

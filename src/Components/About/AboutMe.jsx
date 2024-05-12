@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
@@ -13,12 +13,13 @@ import {
   faJira,
   faSymfony,
   faNodeJs,
+  faUnity,
 } from "@fortawesome/free-brands-svg-icons";
 const AboutMe = () => {
   return (
     <div>
       <section className="text-gray-200 bg-gray-900">
-        <div className="max-w-7xl mx-auto px-5 py-24 ">
+        <div className="max-w-6xl mx-auto px-5 py-24 ">
           <div className="text-center mb-20">
             <h1 className="title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl font-mova">
               What can i do ?
@@ -219,6 +220,12 @@ const AboutMe = () => {
                 Tools
               </h2>
               <p className="leading-relaxed text-sm text-justify mb-3">
+                <FontAwesomeIcon icon={faUnity} size="lg" transform="grow-2 left-6" /> Unity
+              </p>
+              <div className="progress">
+                <div className="progress-value-jira"></div>
+              </div>
+              <p className="leading-relaxed text-sm text-justify mb-3">
                 <FontAwesomeIcon icon={faFigma} size="lg" transform="grow-2 left-6"/> Figma
               </p>
               <div className="progress">
@@ -236,6 +243,7 @@ const AboutMe = () => {
               <div className="progress">
                 <div className="progress-value-jira"></div>
               </div>
+
             </div>
           </div>
         </div>

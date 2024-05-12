@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./Hero.css";
 import heroImg from "./last.png"; // Replace with your image filename
 

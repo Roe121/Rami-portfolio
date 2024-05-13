@@ -12,7 +12,6 @@ import {
   faJs,
   faBootstrap,
   faPhp,
-  faDatabase,
 } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = ({ imageUrl, title, description, techs, flipped }) => {
@@ -35,6 +34,7 @@ const ProjectCard = ({ imageUrl, title, description, techs, flipped }) => {
   };
 
   const colorMap = {
+    
     React: "bg-sky-200 text-sky-400",
     "Node.js": "bg-green-200 text-[#3c873a]",
     Tailwind: "bg-blue-200 text-blue-500",
@@ -48,7 +48,7 @@ const ProjectCard = ({ imageUrl, title, description, techs, flipped }) => {
     JavaScript: "bg-yellow-200 text-yellow-700",
     Bootstrap: "bg-purple-200 text-purple-700",
     Php: "bg-blue-200 text-blue-700",
-    MySql: "bg-orange-200 text-orange-700",
+    MySql: "bg-orange-200 text-orange-700 ",
     
   };
 

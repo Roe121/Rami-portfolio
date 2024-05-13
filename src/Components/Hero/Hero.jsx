@@ -1,6 +1,10 @@
 import React from "react";
 import "./Hero.css";
 import heroImg from "./last.png"; // Replace with your image filename
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 const Hero = () => {
   return (
@@ -27,9 +31,22 @@ const Hero = () => {
             Web designer & developer
           </span>
           <p className="text-2xl">
-            I'm a student and a passionate developer, eager to create innovative
-            web solutions that make a difference.
+            A student and a passionate developer.
           </p>
+          <div className="flex  space-x-4 py-5 ju">
+            <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+              <FontAwesomeIcon icon={faFileAlt} className="mr-2" size="lg" />
+              Resume
+            </button>
+            <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+              <a href="https://github.com/Roe121">
+              <FontAwesomeIcon icon={faGithub} className="mr-2" size="lg" />
+              GitHub
+              </a>
+            </button>
+          </div>
+          
+          
         </div>
         <img className="hero-image" src={heroImg} alt="Rami" />
       </div>

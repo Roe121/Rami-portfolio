@@ -5,6 +5,7 @@ import Projects from "./Components/Projects/Projects";
 import AboutMe from "./Components/About/AboutMe";
 import Hero from "./Components/Hero/Hero";
 import NavBar from "./Components/NavBar";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <AboutMe />
       <Projects />
       <Contact />
+      <Footer />
+      
       <Routes>
         <Route path="/hero" component={Hero} />
         <Route path="/apropos" component={AboutMe} />

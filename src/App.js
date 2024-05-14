@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Contact from "./Components/Contact/Contact";
 import Projects from "./Components/Projects/Projects";
 import AboutMe from "./Components/About/AboutMe";
@@ -38,12 +38,6 @@ function App() {
       </div>
       <Footer />
       
-      <Routes>
-        <Route path="/hero" component={Hero} />
-        <Route path="/apropos" component={AboutMe} />
-        <Route path="/projets" component={Projects} />
-        <Route path="/contact" component={Contact} />
-      </Routes>
     </Router>
   );
 }

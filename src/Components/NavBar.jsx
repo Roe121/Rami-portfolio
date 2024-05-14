@@ -32,8 +32,8 @@ const NavBar = ({ refs }) => {
             <li className="py-3">
               <Link
                 className={`${
-                active === item.name ? 'text-gray-500' : ''
-              } hover:text-gray-500 text-2xl font-mova nav-links  `}
+                active === item.name ? 'text-indigo-700' : ''
+              } hover:text-indigo-700 text-2xl font-mova nav-links  `}
                 to="#"
                 onClick={() => {
                   setActive(item.name);

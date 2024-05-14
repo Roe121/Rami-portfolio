@@ -15,7 +15,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = ({ imageUrl, title, description, techs, flipped }) => {
-  const cardClass = `flex items-center justify-between bg-gray-100 p-6 rounded-lg shadow-md mb-3 border-2 border-indigo-500 ${
+  const cardClass = `flex items-center justify-between bg-gray-100 p-6 rounded-lg shadow-md mb-3 border-4 border-stone-300 ${
     flipped ? "flex-row-reverse" : ""
   }`;
   const iconMap = {
@@ -78,7 +78,7 @@ const ProjectCard = ({ imageUrl, title, description, techs, flipped }) => {
       <img
         src={imageUrl}
         alt={title}
-        className="border-stone-300 border-4 w-1/2 h-auto rounded-lg max-h-96"
+        className="border-stone-300 border-2 w-1/2 h-auto rounded-lg max-h-96"
       />
     </div>
   );

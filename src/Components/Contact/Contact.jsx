@@ -12,11 +12,8 @@ const Contact = () => {
         <h1 className="title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl font-mova">
           Let's Get In Touch !
         </h1>
-        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          The world of computer science is vast, and new technologies emerge all
-          the time. I am committed to staying ahead of the curve to meet my
-          clients' needs and assist fellow developers. Here's what I specialize
-          in:
+        <p className="text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          Feel free to contact me if you have any questions or would like to work together on a project. 
         </p>
         <div className="flex mt-6 justify-center">
           <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>

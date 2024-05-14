@@ -1,4 +1,4 @@
-import React, { useState,useRef  } from "react";
+import React, { useState  } from "react";
 import { NavBarData } from "../Data";
 import logo from "../logop.png";
 import { Link } from "react-router-dom";
@@ -19,11 +19,11 @@ const NavBar = () => {
       <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
         {NavBarData.map((item) => {
           return (
-            <li>
+            <li className="py-3">
               <Link
                 className={`${
                 active === item.name ? 'text-gray-500' : ''
-              } hover:text-gray-500 text-xl font-mova nav-links `}
+              } hover:text-gray-500 text-2xl font-mova nav-links  `}
                 to={item.link}
                 onClick={() => {
                   setActive(item.name);

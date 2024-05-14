@@ -27,7 +27,7 @@ const Hero = () => {
         <div class="firefly"></div>
         <div className="hero-text ">
           <h1 className="text-[38px] font-mova font-extrabold">Hello ! I am Rami</h1>
-          <span className="text-[50px] font-mova font-extrabold uppercase text-gray-600">
+          <span className="text-[50px] font-mova font-extrabold uppercase text-indigo-700">
           A full stack web developer
           </span>
           <p className="text-2xl my-3">

@@ -19,7 +19,7 @@
 }
 
 .hero-image {
-  max-width: 450;
+  max-width: 350px;
   transform: scalex(-1);
   margin-left: 10px;
   box-shadow:

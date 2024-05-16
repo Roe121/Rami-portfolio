@@ -16,7 +16,7 @@ const NavBar = ({ refs }) => {
   };
 
   return (
-    <nav className="w-full flex justify-between items-center mx-auto bg-white max-w-full px-20 py-1 shadow fixed z-10	 ">
+    <nav className="w-full flex justify-between items-center mx-auto bg-white max-w-full px-20 py-1/2 shadow fixed z-10	 ">
       <Link to="/" className="flex items-center gap-2">
         <img
           src={logo}
@@ -33,7 +33,7 @@ const NavBar = ({ refs }) => {
               <Link
                 className={`${
                 active === item.name ? 'text-indigo-700' : ''
-              } hover:text-indigo-700 text-2xl font-mova nav-links  `}
+              } hover:text-indigo-700 text-xl font-mova nav-links  `}
                 to="#"
                 onClick={() => {
                   setActive(item.name);

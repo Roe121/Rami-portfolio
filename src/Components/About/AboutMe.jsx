@@ -24,7 +24,7 @@ const AboutMe = () => {
             <h1 className="title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl font-mova">
               What can i do ?
             </h1>
-            <p className="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            <p className="text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
               The world of computer science is vast, and new technologies emerge
               all the time. I am committed to staying ahead of the curve to meet
               my clients' needs and assist fellow developers. Here's what I
@@ -58,7 +58,7 @@ const AboutMe = () => {
                     <h2 className="text-2xl title-font font-medium mb-3 font-mova">
                       Web design
                     </h2>
-                    <p className="leading-relaxed text-lg text-justify">
+                    <p className="leading-relaxed text-base text-justify">
                       I bring websites to life, making them visually
                       stunning and appealing. Even as a child, I was captivated
                       by color and design, making this a natural fit for me.
@@ -90,7 +90,7 @@ const AboutMe = () => {
                     <h2 className="text-2xl title-font font-medium mb-3 font-mova">
                       Front-End Development
                     </h2>
-                    <p className="leading-relaxed text-lg text-justify">
+                    <p className="leading-relaxed text-base text-justify">
                       I specialize in React.js, crafting user-friendly and
                       responsive front-end experiences that effectively engage
                       your audience and enhance their interactions.
@@ -122,7 +122,7 @@ const AboutMe = () => {
                     <h2 className="text-2xl title-font font-medium mb-3 font-mova">
                       Back-end Development
                     </h2>
-                    <p className="leading-relaxed text-lg text-justify">
+                    <p className="leading-relaxed text-base text-justify">
                       With expertise in frameworks like Express.js and Symfony,
                       I create dynamic and efficient websites that seamlessly
                       interact with your database.

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rami-portfolio/static/css/main.4e623b2b.css",
-    "main.js": "/Rami-portfolio/static/js/main.c4b827d1.js",
+    "main.css": "/Rami-portfolio/static/css/main.3c5f35ab.css",
+    "main.js": "/Rami-portfolio/static/js/main.a0512b0c.js",
     "static/media/bg1.jpg": "/Rami-portfolio/static/media/bg1.83416ec0076a47ca3375.jpg",
     "static/media/EasyFaceRec.png": "/Rami-portfolio/static/media/EasyFaceRec.0df242c23e6fce511b78.png",
     "static/media/last.png": "/Rami-portfolio/static/media/last.1439d5812dcd209da3c8.png",
@@ -11,11 +11,11 @@
     "static/media/logop.png": "/Rami-portfolio/static/media/logop.c6677dae9514a0e67632.png",
     "static/media/mova.otf": "/Rami-portfolio/static/media/mova.707cfc3dbae1078dc46e.otf",
     "index.html": "/Rami-portfolio/index.html",
-    "main.4e623b2b.css.map": "/Rami-portfolio/static/css/main.4e623b2b.css.map",
-    "main.c4b827d1.js.map": "/Rami-portfolio/static/js/main.c4b827d1.js.map"
+    "main.3c5f35ab.css.map": "/Rami-portfolio/static/css/main.3c5f35ab.css.map",
+    "main.a0512b0c.js.map": "/Rami-portfolio/static/js/main.a0512b0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e623b2b.css",
-    "static/js/main.c4b827d1.js"
+    "static/css/main.3c5f35ab.css",
+    "static/js/main.a0512b0c.js"
   ]
 }
